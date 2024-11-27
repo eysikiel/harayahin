@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Sono', sans-serif;
+    background-color: #f5f7ec;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    padding-top: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar .logo img {
+    width: 60px;
+}
+
+.navbar nav {
+    display: flex; 
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.navbar nav a:hover {
+    color: #8b5d33;
+}}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #67442e;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #855a3e;
+}
+
+h1 {
+    /* kundiman kanto shadow text text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);  */ 
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: normal;
+    color: #8b5d33;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    font-size: 85px; 
+    text-align: center;
+}
+
+.main-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ede1d3;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    outline: none;
+    color: #555;
+    max-width: none;
+}
+
+.search-input:focus {
+    border-color: #7442e;
+}
+
+.search-button {
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #67442e;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: none;
+}
+
+.search-button:hover {
+    background-color: #855a3e;
+}

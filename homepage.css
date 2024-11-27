@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+.sono-<uniquifier> {
+  font-family: "Sono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "MONO" 1;
+}
+    background-image: url('homepage.png'); /* Replace with your attached image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; /* Positions the image to prioritize the top */
+    min-height: 120vh; /* Increases height to push the content further up */
+    color: #fff;
+}
+
+/* Header styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sono", monospace;
+    font-weight: 500;
+}
+
+body {
+    color: #333;
+}
+
+
+/* NAVIGATION BAR*/
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar .logo img {
+    width: 60px;
+}
+
+.navbar nav {
+    display: flex; 
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.navbar nav a:hover {
+    color: #8b5d33;
+}
+

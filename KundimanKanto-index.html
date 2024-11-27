@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Kundiman Kanto</title>
+    <link rel="stylesheet" type="text/css" href="KundimanKanto.css">
+
+
+    <!--FONTS USED-->
+    <!--LOGO FONT (Qwigley)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
+
+    <!--HEADER FONT (Qwitcher Grypen)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--COMMON FONT (Sono)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div>
+        <?php
+         include 'navbar.php'
+         
+         ?>
+        </div>
+        <!-- <a href="navbar.html"></a> -->
+    
+
+        <h1>Kundiman Kanto</h1>
+
+        <div class="comment-wrapper">
+            <font size="6">Add comment</font>
+            
+            <form class="comment-form">
+
+                <div class="flex-pair">
+                    <label for="name">Your Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name!">
+                </div>
+
+                <div class="flex-pair">
+                    <label for="comment">Your Comment:</label>
+                    <textarea type="text" name="comment" id="comment" placeholder="Enter your comment here...", rows="5" cols="10"></textarea>
+                </div>
+                
+                <div class="flex-pair">
+                    <label></label>
+                    <input type="submit" value="Submit comment">
+                </div>
+    
+            </form>
+
+            <font size="6">Comments</font>
+
+            <ul class="comment-container">
+                <li>
+                    <p>Ivan Yee</p>
+                    <p>I would let gabriel ultrakill absolutely LOVE me from behind with no hesitation. I will turn into the happiest man alive for gabriel ultrakill.</p>
+                </li>
+            </ul>
+
+        </div>
+
+        <script src="KundimanKanto-main.js"></script>
+
+</body>
+</html>
