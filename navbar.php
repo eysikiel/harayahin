@@ -1,6 +1,6 @@
 <div class="navbar">
     <div class="logo">
-        <img src = "logo.jpg">
+        <img src = "logo.png">
         <link rel="stylesheet" type="text/css" href="navbar.css">
     </div>
     <nav>
