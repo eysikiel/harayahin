@@ -8,6 +8,6 @@
         <a href="DedicateAHarana.php">Dedicate A Harana</a>
         <a href="KundimanKanto-index.php">Kundiman Kanto</a>
         <a href ="search.php">Find Your Harana</a>
-        <a href="#">About Us</a>
+        <a href="aboutus.php">About Us</a>
     </nav>
 </div>
