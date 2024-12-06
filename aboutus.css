@@ -1,15 +1,23 @@
-/* General Styles */
-body {
-    font-family: 'Sono', sans-serif; /* Common font */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
+    box-sizing: border-box;
+    font-family: "Sono", monospace;
+    font-weight: 500;
 }
 
+html, body {
+    height: 100%; /* Ensures body covers full viewport */
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    background: #f5f5eb;
+    color: #333;
+}
 
+/* Navbar */
 .navbar {
     display: flex;
     align-items: center;
@@ -28,7 +36,7 @@ body {
 }
 
 .navbar nav {
-    display: flex; 
+    display: flex;
 }
 
 .navbar nav a {
@@ -42,14 +50,16 @@ body {
     color: #8b5d33;
 }
 
-
-/* Content Styles */
+/* Content */
 .content {
-    margin: 20px 0;
+    margin: 80px 20px; /* Adjusted margin to avoid navbar overlap */
     padding: 20px;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Sono', sans-serif;
+    line-height: 1.6;
+    flex: 1; /* Fills available space */
 }
 
 .about h2, .mission h2 {
@@ -57,10 +67,11 @@ body {
     color: #8b5d33;
     font-size: 2em;
     margin-bottom: 10px;
+    font-weight: bold; /* Make it bold */
 }
 
 p, li {
-    font-family: 'Sono', sans-serif; /* Common font */
+    font-family: 'Sono', sans-serif;
 }
 
 ul {
@@ -68,17 +79,17 @@ ul {
     margin-left: 20px;
 }
 
-/* Footer Styles */
+/* Footer */
 .footer {
     text-align: center;
     padding: 10px 0;
     background-color: #8b5d33;
     color: #fff;
-    margin-top: 20px;
     border-radius: 10px;
+    margin-top: auto; /* Pushes footer to the bottom */
 }
 
 .footer p {
     margin: 0;
-    font-family: 'Sono', sans-serif; /* Common font */
+    font-family: 'Sono', sans-serif;
 }
