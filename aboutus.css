@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Sono', sans-serif; /* Common font */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar .logo img {
+    width: 60px;
+}
+
+.navbar nav {
+    display: flex; 
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.navbar nav a:hover {
+    color: #8b5d33;
+}
+
+
+/* Content Styles */
+.content {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .mission h2 {
+    font-family: 'Qwitcher Grypen', cursive; /* Header font */
+    color: #8b5d33;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p, li {
+    font-family: 'Sono', sans-serif; /* Common font */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #8b5d33;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.footer p {
+    margin: 0;
+    font-family: 'Sono', sans-serif; /* Common font */
+}
