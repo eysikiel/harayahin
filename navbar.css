@@ -9,6 +9,8 @@
     top: 0;
     left: 0;
     z-index: 1000;
+    font-family: "Sono", monospace;
+    font-weight: 500;
 }
 
 .navbar .logo img {
@@ -25,6 +27,7 @@
     color: #333;
     font-size: 16px;
 }
+
 
 .navbar nav a:hover {
     color: #8b5d33;
