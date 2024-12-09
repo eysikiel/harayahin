@@ -1,7 +1,7 @@
 <?php 
     $dbhost = "localhost";
     $dbuser = "root";
-    $dbpass = "root";
+    $dbpass = "";
     $db = "Harayahin";
 
     $conn = new mysqli($dbhost, $dbuser, $dbpass, $db);
